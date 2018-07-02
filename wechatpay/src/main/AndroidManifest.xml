@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="zqb.com.wechatpay">
+
+    <application>
+        <activity android:name=".WechatPayActivity"/>
+
+        <!-- 微信sdk集成 -->
+
+    </application>
+</manifest>

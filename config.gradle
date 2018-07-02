@@ -1,0 +1,26 @@
+ext {
+    def organization = "zqb.com"
+    android = [
+            organization     : "${organization}",
+            applicationId    : "${organization}.opensourcebownden",
+            compileSdkVersion: 26,
+            buildToolsVersion: "27.0.3",
+            minSdkVersion    : 21,
+            targetSdkVersion : 26,
+            versionCode      : 100,
+            versionName      : "1.0.0",
+            resConfigs       : "zh"
+    ]
+
+    //合并到主程序运行的组件,没有填写的组件则可以独立运行
+    merge = [
+//            "acgnews",
+//            "acgschedule",
+//            "acgcomic"
+    ]
+
+    dependencies = [
+            support    : "26.1.0",
+            butterknife: "8.4.0",
+    ]
+}

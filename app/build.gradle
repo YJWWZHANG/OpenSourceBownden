@@ -52,6 +52,6 @@ dependencies {
 //    implementation project(':huanxinim')
 //    implementation project(':yunxinim')
 //    implementation project(':realm')
-//    implementation project(':greendao')
+    implementation project(':greendao')
 //    implementation project(':jpush')
 }

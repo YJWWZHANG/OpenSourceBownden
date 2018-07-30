@@ -9,6 +9,7 @@ import android.view.ViewGroup;
 
 import butterknife.ButterKnife;
 import butterknife.OnClick;
+import zqb.com.greendao.GreenDaoActivity;
 
 public class OpenSourceFragment extends Fragment {
 
@@ -27,7 +28,7 @@ public class OpenSourceFragment extends Fragment {
 //                RealmActivity.launch(getActivity());
                 break;
             case R.id.btn_green_dao:
-//                GreenDaoActivity.launch(getActivity());
+                GreenDaoActivity.launch(getActivity());
                 break;
         }
     }
